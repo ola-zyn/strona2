@@ -1,0 +1,71 @@
+.course-title{
+    background-color:var(--navbar-color);
+    margin-top:100px;
+    padding:20px;
+    margin-bottom: 50px;
+}
+.course-pic{
+    display:inline-block;
+}
+.course-lang{
+    display:inline-block;
+    color:white;
+}
+.lang-pic{
+    max-width: 100px;
+    max-height: 100px;
+}
+.definition{
+    margin-top:20px;
+    background-color: var(--definition-color);
+    padding:20px;
+    padding-top:30px;
+    margin-bottom:40px;
+    color: #ffffff;
+}
+.recipe{
+    background-color: var(--definition-color);
+    padding:30px;
+    color: #ffffff;
+}
+.code{
+    margin-top:20px;
+    background-color: var(--definition-color);
+    padding:20px;
+    border-radius:10px;
+    color:#ffffff;
+}
+.code-title{
+    margin-top:20px;
+}
+.code-text{
+    font-family: 'Courier New', monospace;
+}
+
+@media only screen and (min-width: 768px) {
+    .def{
+        min-height: 715px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .def{
+        min-height: 550px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .def{
+        min-height: 500px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .def{
+        min-height: 480px;
+    }
+}
+/*program colors*/
+.c1{
+    color: rgb(216, 0, 187);
+}
+.c-text{
+    color: rgb(0, 126, 0);
+}

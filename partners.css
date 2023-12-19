@@ -1,0 +1,11 @@
+.box-title{
+    background-color:var(--navbar-color);
+    margin-top:100px;
+    padding:20px;
+    margin-bottom:50px;
+}
+
+.title{
+    color:white;
+    margin-left:20px;
+}

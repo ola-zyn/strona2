@@ -1,0 +1,85 @@
+.course-title{
+    background-color:var(--navbar-color);
+    margin-top:100px;
+    padding:20px;
+}
+.course-pic{
+    display:inline-block;
+}
+.course-lang{
+    display:inline-block;
+    color:white;
+}
+.lang-pic{
+    max-width: 100px;
+    max-height: 100px;
+}
+@media only screen and (min-width: 360px) {
+    
+    .course-pic{
+        margin-left:20px;
+        margin-right:20px;
+    }
+}  
+@media only screen and (max-width: 360px) {
+    .lang-pic{
+        max-width:50px;
+        max-height:50px;
+    }
+}    
+
+.card-link{
+    text-decoration: none;
+}
+.lightBlue-card{
+    background-color: var(--light-card-color);
+}
+.darkBlue-card{
+    background-color:var(--dark-card-color);
+}
+.card-title, .card-text, .card-subtitle {
+    color:#ffffff;
+    text-align: left;
+    text-decoration: none;
+}
+.card-text{
+    text-align: right;
+}
+.lightBlue-card, .darkBlue-card{
+    border-color:var(--bg-color);
+    border-radius:0px;
+    padding: 20px;
+    min-height: 250px;
+}
+.card-button{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.learn-more-dark, .learn-more-light{
+    width:100%;
+    margin-top:30px;
+}
+.btn-course{
+    text-decoration: none;
+    color:#ffffff;
+}
+.btn-course:hover{
+    text-decoration: none;
+}
+.btn-course-light:hover{
+    color:var(--light-card-color);
+}
+.btn-course-dark:hover{
+    color:var(--dark-card-color);
+}
+.learn-more-light:hover{
+    color:var(--light-card-color);
+}
+.learn-more-dark:hover{
+    color:var(--dark-card-color);
+}
+@media only screen and (max-width: 442px) {
+    .course-lang{
+        margin-left:30px;
+    }
+}  

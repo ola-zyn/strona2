@@ -1,0 +1,33 @@
+/*ciemny*/
+:root {
+  --font-color: #ffffff;
+  --font-hover-color: #cccccc;
+  --bg-color: #212121;
+  --navbar-color: #131313;
+  --dropdown-color:#242424;
+  --bg-image: url('https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/kod2.png?v=1698866349102');
+  --toggler-border-color: #ffffff;
+  --toggler-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  --dark-card-color:#1a1c9b;
+  --light-card-color:#006ece;
+  --hr-color:#555555;
+  --definition-color: rgba(0,0,0,0.2);
+
+}
+
+/*jasny*/
+
+html[data-theme="light"] {
+  --font-color: #000000;
+  --font-hover-color:#555555;
+  --bg-color: #f3f3f3;
+  --navbar-color: #0088ff;
+  --dropdown-color:#26b8fc;
+  --bg-image: url('https://cdn.glitch.global/7245122c-149e-4f8d-b647-1fd0743ab98f/kod3.png?v=1698867171793');
+  --toggler-border-color: #000000;
+  --toggler-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  --dark-card-color:#0088ff;
+  --light-card-color:#26b8fc;
+  --hr-color:#cccccc;
+  --definition-color: #26b8fc;
+}

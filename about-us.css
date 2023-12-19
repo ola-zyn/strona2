@@ -1,0 +1,79 @@
+/*about project*/
+.our-mission{
+    margin-top:140px;
+}
+.our-mission-text{
+    font-size:8vh;
+}
+.about-project-box{
+    background-color:var(--navbar-color);
+    height: auto;
+    margin-top:50px;
+    padding:0;
+    margin-bottom:50px;
+}
+.about-project-text{
+    padding:30px;
+    color:#ffffff;
+}
+.about-project-pic{
+    margin-top:11%;
+}
+@media only screen and (max-width: 1399px) {
+    .about-project-pic{
+        margin-top:20%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .about-project-pic{
+        margin-top:40%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .about-project-pic{
+        margin-top:90%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-project-pic{
+        margin-top:10%;
+    }
+}
+@media only screen and (max-width: 272px) {
+    .about-project-box{
+        width:272px;
+    }
+    .about-project-text{
+        padding:5px;
+    }
+    .about-project-pic{
+        margin-bottom: 20px;
+    }
+
+}
+/*about-us*/
+.our-team{
+    margin-top:70px;
+    margin-bottom:40px;
+}
+.our-team-text{
+    font-size:8vh;
+}
+.about-us-card{
+    background-color:var(--navbar-color);
+    color:#ffffff;
+    border-color:transparent;
+}
+
+
+
+@media only screen and (max-width: 272px) {
+    
+    .about-us-card{
+        width:250px;
+      
+    }
+    .about-project-box{
+        width:100%;
+    }
+}      
